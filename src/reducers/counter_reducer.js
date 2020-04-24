@@ -2,7 +2,7 @@ const counterReducer = (state = { count: 1 }, action) => {
   switch(action.type) {
     case 'COUNT_ADD':
       return {
-        ...state, count: state.count + 1
+        ...state, count: state.count + 4
       }
     case 'COUNT_REDUCE':
       return {
